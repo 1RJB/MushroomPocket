@@ -1,0 +1,9 @@
+CREATE DATABASE `it2154` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
+CREATE TABLE `characters` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `Name` varchar(50) NOT NULL,
+  `HP` int NOT NULL,
+  `EXP` int NOT NULL,
+  `Skill` varchar(50) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
